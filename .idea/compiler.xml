@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Daifug_Common" />
+        <module name="Daifug_Damain" />
+        <module name="Daifug_LonginController" />
+        <module name="Daifug_Mapper" />
+        <module name="Daifug_SSOService" />
+        <module name="Daifug_SSOServiceProvider" />
+        <module name="Daifug_UserService" />
+        <module name="Daifug_Web" />
+        <module name="Daifug_WebController" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Daifugcommon" target="1.8" />
+      <module name="Daifugdomain" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
