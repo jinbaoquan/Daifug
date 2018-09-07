@@ -3,6 +3,8 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Daifug_LonginController" />
+    <file type="web" url="file://$PROJECT_DIR$/Daifug_UserServiceProvider" />
+    <file type="web" url="file://$PROJECT_DIR$/Daifug_Web" />
     <file type="web" url="file://$PROJECT_DIR$/Daifug_WebController" />
   </component>
   <component name="MavenProjectsManager">

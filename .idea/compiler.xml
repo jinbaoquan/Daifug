@@ -13,6 +13,7 @@
         <module name="Daifug_SSOService" />
         <module name="Daifug_SSOServiceProvider" />
         <module name="Daifug_UserService" />
+        <module name="Daifug_UserServiceProvider" />
         <module name="Daifug_Web" />
         <module name="Daifug_WebController" />
       </profile>

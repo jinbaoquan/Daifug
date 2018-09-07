@@ -8,8 +8,6 @@
     <artifactId>Daifug</artifactId>
     <version>1.0.0</version>
     <modules>
-        <module>Daifug-domain</module>
-        <module>Daifug-common</module>
         <module>Daifug_Common</module>
         <module>Daifug_Damain</module>
         <module>Daifug_LonginController</module>
@@ -19,6 +17,7 @@
         <module>Daifug_UserService</module>
         <module>Daifug_Web</module>
         <module>Daifug_WebController</module>
+        <module>Daifug_UserServiceProvider</module>
     </modules>
     <packaging>pom</packaging>
     <!--jar依赖的版本号-->

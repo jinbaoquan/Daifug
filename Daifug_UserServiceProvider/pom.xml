@@ -9,23 +9,27 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Daifug_UserService</artifactId>
-
+    <artifactId>Daifug_UserServiceProvider</artifactId>
+    <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>com.xiaobao</groupId>
-            <artifactId>Daifug_Common</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.xiaobao</groupId>
-            <artifactId>Daifug_Damain</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.xiaobao</groupId>
-            <artifactId>Daifug_Mapper</artifactId>
+            <artifactId>Daifug_UserService</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <path>/</path>
+                    <port>10801</port>
+                    <server>tomcat7</server>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
